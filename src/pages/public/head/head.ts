@@ -1,0 +1,4 @@
+import "./head.scss";
+
+$(function () {
+});

@@ -1,0 +1,35 @@
+{
+  "name": "my-non-vue-project",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "files": [
+    "dist",
+    "index.d.ts"
+  ],
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc && vite build"
+  },
+  "devDependencies": {
+    "@rollup/plugin-alias": "^5.1.0",
+    "@types/fullpage.js": "^2.9.6",
+    "@types/jquery": "^3.5.30",
+    "@types/node": "^22.1.0",
+    "@vitejs/plugin-legacy": "^5.4.1",
+    "css": "^3.0.0",
+    "postcss-px-to-viewport-8-plugin": "^1.2.5",
+    "sass": "^1.77.8",
+    "scss": "^0.2.4",
+    "typescript": "^5.4.5",
+    "vite": "^5.2.10",
+    "vite-plugin-html": "^3.2.2",
+    "vite-plugin-html-inject": "^1.1.2"
+  },
+  "dependencies": {
+    "fullpage.js": "^4.0.29",
+    "jquery": "^3.7.1",
+    "lib-flexible": "^0.3.2",
+    "vite-plugin-ejs": "^1.7.0"
+  }
+}
